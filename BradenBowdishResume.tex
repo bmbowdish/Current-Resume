@@ -1,10 +1,10 @@
 % !TXS template
-\documentclass[11pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10pt,a4paper,sans,english]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
 \usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-\usepackage[scale=0.77,a4paper]{geometry}
+\usepackage[scale=0.7,a4paper]{geometry}
 \usepackage{babel}
 %----------------------------------------------------------------------------------
 %            personal data
@@ -19,21 +19,22 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 \section{Objective}
-  \cvlistitem{Seeking a Co-Op for the Summer and/or Fall of 2017, as well as the Spring and/or Summer of 2018.}
-\section{Education}
-  \cventry{--}{Rochester Institute of Technology}{Bachelors of Science}{Computer Science}{Expected Graduation: 2020}{}
+ \cvlistitem{Seeking Co-Op for Summer and/or Fall of 2017 and Spring and/or Summer of 2018.}
+\section{Basic Information}
+  \cvlistitem{Rochester Institute of Technology. Bachelors of Science, Computer Science. Expected Graduation: 2020}
+  \subsection{Relevant Classes}
+    \cvlistitem{Data Structures}
+    \cvlistitem{Object Oriented Programming}
+    \cvlistitem{Mechanics of Programming}
+    \cvlistitem{Intro to Software Engineering}
 \section{Projects}
-  \cventry{--}{Event Keeper}{\href{https://github.com/bmbowdish/Event-Keeper}{(github.com/bmbowdish/Event-Keeper)}}{Event Keeper takes attendance during Computer Science House meetings. Event Keeper is built using an Arduino to read iButtons, and a Raspberry Pi to manage current events that are pulled down from a Google Calendar. This project taught me an incredible amount about Python, APIs, and Arduinos} {Fall 2015}{}
-  \cventry{--}{qr-wiki}{\href{https://github.com/bmbowdish/qr-wiki}{(github.com/bmbowdish/qr-wiki)}}{Web page that creates qr-codes that link to a private mediawiki run by Computer Science House. Uses custom bootstrap theme and JQuery to create qr-codes}{Spring 2016}{}
+  \cventry{--}{Event Keeper}{\href{https://github.com/bmbowdish/Event-Keeper}{(github.com/bmbowdish/Event-Keeper)}}{Event Keeper takes attendance during Computer Science House meetings. Event Keeper is built using an Arduino to read iButtons, and a Raspberry Pi to manage current events that are pulled down from a Google Calendar} {Fall 2015}{}
   \cventry{--}{LED Matrix}{https://github.com/bmbowdish/LED-Hackathon-Matrix}{LED Matrix. Four buttons can move which LED is turned on. A fifth button helps choose between two modes where the 4 buttons work differently. I also learned about Matrix Multiplexing so any combination of lights can be turned on with the matrix. Most recently, I have begun adding the functionality of using a controller to control which LEDs turn on}{Fall 2016}{}
   \cventry{--}{Web Checkers}{}{Online Checkers game built in java using the Spark framework. Working with four other developers for 15 weeks. Currently being implemented}{Spring 2017}{}
+\section{Work Experience}
+  \cventry{--}{TD Alfredo's Pizzeria}{}{Worked as a Cashier in a local Pizza shop}{Summer and Winter of 2016}{}
 \section{Technical Skills}
   \cvitemwithcomment{}{C, Python, Java, Git, Github, \LaTeX}{}
 \section{Extracurriculars}
   \cvitem{--}{Computer Science House, a living-learning community for people interested in computers and other forms of technology.}
-\section{Relevant Classes}
-  \cvlistitem{Data Structures and Object Oriented Programming}
-  \cvlistitem{Mechanics of Programming}
-  \cvlistitem{Intro to Software Engineering}
 \end{document}
-
